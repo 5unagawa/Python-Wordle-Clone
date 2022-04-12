@@ -35,6 +35,12 @@ class Game:
 
 NewGame = Game()
 NewGame.start()
+print("Welcome to PWC - a Python Wordle Clone\n"
+    +"Plays just like the real thing if it was played using the command line.\n"
+    +"Letters in the correct spot are shown using uppercase letters.\n"
+    +"Letters that are in the word but in the wrong spot are shown using lowercase letters.\n"
+    +"Letters that are not in the word are shown using an underscore (_)\n"
+    +"Enjoy! :]")
 while NewGame.gameOver == False:
     while True:
         playerGuess = input("Please guess a 5-letter word:\n")
@@ -43,12 +49,13 @@ while NewGame.gameOver == False:
         if len(playerGuess) != 5:
             print("Sorry, please make sure the word is 5 letters only.")
             continue
+        #check that the guess is letters only
+        elif playerGuess.isalpha() == False:
+            print("Sorry, you can only use letters.")
         else:
             break
-    #check that there are no numbers
-    #check that there are no special characters
     #(later)check that the input is a real word
-    #convert guess to lower case
-    guessList = list(playerGuess)
+    #convert guess to lower case and into array
+    guessList = list(playerGuess.lower())
     NewGame.compareGuess(guessList)
     
