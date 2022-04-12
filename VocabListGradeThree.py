@@ -86,4 +86,4 @@ dictionary = ["allow"
 "trust",
 "whole",
 "worse",
-"wrist",
+"wrist"]
