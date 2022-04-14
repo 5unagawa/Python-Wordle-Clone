@@ -6,5 +6,8 @@ I wanted to make something that my students (hopefully) will find interesting th
 
 As of writing, the game is playable using the command line. I hope to implement a UI soon so that it is more accesible.
 
+I have just remembered that my schools use Chromebooks so I am now going to have to make this into a web application instead of a standalone application like I had first hoped.
+However, I will still implement a UI for the sake of practice 👍
+
 Thanks for stopping by!
 - 5unagawa
