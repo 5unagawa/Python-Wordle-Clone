@@ -32,7 +32,6 @@ dictionary = ["April"
 "fruit",
 "glove",
 "grape",
-"great",
 "green",
 "happy",
 "hello",
@@ -56,7 +55,6 @@ dictionary = ["April"
 "place",
 "queen",
 "rainy",
-"right",
 "river",
 "rugby",
 "ruler",
@@ -77,10 +75,8 @@ dictionary = ["April"
 "steak",
 "study",
 "sunny",
-"sweet",
 "table",
 "tenth",
-"thank",
 "think",
 "third",
 "three",
@@ -91,5 +87,4 @@ dictionary = ["April"
 "watch",
 "where",
 "white",
-"world",
-"would"]
+"world"]
