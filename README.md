@@ -10,5 +10,5 @@ Thanks for stopping by!
 - 5unagawa
 
 # Update
-I have just remembered that my schools use Chromebooks so I am now going to have to make this into a web application instead of a standalone application like I had first hoped.
+I have just remembered that my schools use Chromebooks so I am now going to have to make this into a [JavaScript web application]https://github.com/5unagawa/GuessTheWord  instead of a standalone application like I had first hoped.
 However, I will still implement a UI for the sake of practice 👍
